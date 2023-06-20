@@ -1,0 +1,48 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+.title {
+  font-size: 35px;
+  font-family: 'Lobster';
+  margin-bottom: 35px;
+}
+
+.language-tabs-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.card-con {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.failure-text {
+  text-align: center;
+  font-family: 'Lobster';
+  color: #1e293b;
+}
+
+.failure-image {
+  width: 40%;
+}
